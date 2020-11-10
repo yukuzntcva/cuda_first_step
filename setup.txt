@@ -1,0 +1,22 @@
+Start by updating the packages list:
+
+> sudo apt update
+> sudo apt install build-essential
+> sudo apt-get install manpages-dev
+> gcc --version
+
+> sudo apt-get install wget
+
+> sudo apt-get install software-properties-common
+
+> wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda-repo-debian10-11-1-local_11.1.1-455.32.00-1_amd64.deb
+
+> sudo dpkg -i cuda-repo-debian10-11-1-local_11.1.1-455.32.00-1_amd64.deb
+
+Local / Network installer:
+$ sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
+$ sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/debian10/x86_64/7fa2af80.pub
+
+> sudo add-apt-repository contrib
+> sudo apt-get update
+> sudo apt-get -y install cuda
