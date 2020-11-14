@@ -1,5 +1,6 @@
 https://console.cloud.google.com/compute/instancesAdd?authuser=1&project=norse-augury-294408
 https://towardsdatascience.com/installing-cuda-on-google-cloud-platform-in-10-minutes-9525d874c8c1
+https://losst.ru/ustanovka-drajvera-nvidia-v-debian-10
 asia-east-1a
 Start by updating the packages list:
 
